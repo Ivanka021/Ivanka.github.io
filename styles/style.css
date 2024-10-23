@@ -1,0 +1,29 @@
+body {
+    font-size: 16px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+    font-family: "Cormorant Infant", serif;
+    font-weight: 500;
+    background-color: #f9e2fb;
+    padding: 0 50px 20px 50px;
+    margin: 0 auto;
+    width: 800px;
+    border: 5px solid rgb(46, 0, 60);
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+  
+p,
+li {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;  /* Ширина картинки */
+    height: auto;  /* Автоматическая высота для сохранения пропорций */
+}
